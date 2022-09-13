@@ -1,0 +1,20 @@
+{
+    "name": "shape-shopify-snippets",
+    "displayName": "Shape Shopify Snippets",
+    "description": "Shape Shopify Snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.71.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+        {
+            "language": "liquid",
+            "path": "./snippets/liquid.json"
+        }
+        ]
+    }
+}
