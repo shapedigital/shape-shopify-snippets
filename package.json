@@ -2,6 +2,7 @@
     "name": "shape-shopify-snippets",
     "displayName": "Shape Shopify Snippets",
     "description": "Shape Shopify Snippets",
+    "icon": "images/logo.jpg",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.71.0"
