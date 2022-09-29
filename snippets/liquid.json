@@ -1,5 +1,25 @@
 {
-    "Section": {
+    "WrapIf": {
+		"scope": "liquid",
+		"prefix": "if-wrap",
+		"body": [
+			"{% if ${1:variable} != blank %}",
+			"  ${TM_SELECTED_TEXT}",
+			"{% endif %}"
+		],
+		"description": "Wraps content in an if statement"
+	},
+    "liquid-tag": {
+		"scope": "liquid",
+		"prefix": "liquid-tag",
+		"body": [
+			"{% liquid",
+			"  assign ${1:variable} = ${2:value}",
+			"%}"
+		],
+		"description": "A liquid tag with a boilerplate variable."
+	},
+    "template-section": {
         "scope": "liquid",
         "prefix": "template-section",
         "body": [
@@ -40,7 +60,7 @@
         ],
         "description": "Boilerplate markup for a section comment"
     },
-    "Snippet": {
+    "template-snippet": {
         "scope": "liquid",
         "prefix": "template-snippet",
         "body": [

@@ -1,0 +1,10 @@
+{
+    "preconnect": {
+        "scope": "liquid,html",
+        "prefix": "preconnect",
+        "body": [
+            "<link rel=\"preconnect\" href=\"${TM_SELECTED_TEXT}\" crossorigin=\"true\" />"
+        ],
+        "description": "Creates a preconnect link for external assets"
+    }
+}

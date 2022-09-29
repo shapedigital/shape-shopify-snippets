@@ -1,0 +1,23 @@
+{
+	"template-ruby": {
+		"scope": "ruby",
+		"prefix": "template-ruby",
+		"body": [
+			"=begin",
+			"-------------------------------------------------------------------------------",
+			"${1:$TM_FILENAME_BASE}",
+			"-------------------------------------------------------------------------------",
+			"Description",
+			"${2:Describe the shopify script}",
+			"-------------------------------------------------------------------------------",
+			"Variables",
+			"- ${3:variable_name}: {${4:String}} - ${5:Description}.",
+			"-------------------------------------------------------------------------------",
+			"Reference",
+			"https://help.shopify.com/en/manual/checkout-settings/script-editor/",
+			"-------------------------------------------------------------------------------",
+			"=end"
+		],
+		"description": "Boilerplate markup for a ruby comment"
+	}
+}

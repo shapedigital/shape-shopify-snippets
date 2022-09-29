@@ -4,6 +4,13 @@
     "description": "Shape Shopify Snippets",
     "icon": "images/logo.jpg",
     "version": "0.0.1",
+    "publisher": "Shape",
+    "bugs": "https://github.com/shapedigital/shape-shopify-snippets/issues",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shapedigital/shape-shopify-snippets.git"
+    },
     "engines": {
         "vscode": "^1.71.0"
     },
@@ -13,8 +20,20 @@
     "contributes": {
         "snippets": [
         {
+            "language": "css",
+            "path": "./snippets/css.json"
+        },
+        {
+            "language": "html",
+            "path": "./snippets/html.json"
+        },
+        {
             "language": "liquid",
             "path": "./snippets/liquid.json"
+        },
+        {
+            "language": "ruby",
+            "path": "./snippets/ruby.json"
         }
         ]
     }
