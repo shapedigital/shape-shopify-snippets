@@ -12,14 +12,14 @@
 			"*/",
 			"",
 			".${TM_FILENAME_BASE/[\\_]//} {",
-			"  ${4}",
+			"\t${4}",
 			"}"
 		],
 		"description": "Boilerplate markup for a css comment. Replaces first underscore."
 	},
 	"scaffold-mixin": {
 		"scope": "css,pcss,postcss",
-		"prefix": "scaffold-mixin",
+		"prefix": "scaffold-css-mixin",
 		"body": [
 			"/*",
 			"-------------------------------------------------------------------------------",

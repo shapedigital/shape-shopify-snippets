@@ -16,29 +16,29 @@
             "{% endcomment %}",
             "",
             "{% liquid",
-            "   assign ${3:variable_name} = ${4:''}",
+            "\tassign ${3:variable_name} = ${4:''}",
             "%}",
             "",
             "<section class=\"section\">",
-            "  <div class=\"section__inner container\">",
-            "    <div class=\"section__body\">",
-            "      ${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}",
-            "    </div>",
-            "  </div>",
+            "\t<div class=\"section__inner container\">",
+            "\t\t<div class=\"section__body\">",
+            "\t\t\t${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}",
+            "\t\t</div>",
+            "\t</div>",
             "</section>",
             "",
             "{% schema %}",
             "{",
-            "  \"name\": \"${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}\",",
-            "  \"presets\": [",
-            "    {",
-            "      \"name\": \"${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}\"",
-            "    }",
-            "  ]",
+            "\t\"name\": \"${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}\",",
+            "\t\"presets\": [",
+            "\t\t{",
+            "\t\t\t\"name\": \"${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}\"",
+            "\t\t}",
+            "\t]",
             "}",
             "{% endschema %}"
         ],
-        "description": "Boilerplate markup for a section comment"
+        "description": "Boilerplate markup for a section."
     },
     "scaffold-snippet": {
         "scope": "liquid",
@@ -52,7 +52,7 @@
             "${2:Describe the ${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}",
             "-------------------------------------------------------------------------------",
             "Accepts",
-            "- ${3:variable_name}: ${4|Object,String,Number,Boolean,Nil,Array,EmptyDrop|} - ${5:Describe the variable}.",
+            "- ${3:variable_name}: ${4|Object,String,Number,Boolean,Nil,Array|} - ${5:Describe the variable}.",
             "-------------------------------------------------------------------------------",
             "Usage",
             "{% render '$TM_FILENAME_BASE', ${3:variable_name}: ${6:''} %}",
@@ -61,24 +61,44 @@
             "",
             "${7}"
         ],
-        "description": "Boilerplate markup for a snippet comment"
+        "description": "Boilerplate markup for a snippet."
+    },
+    "component-section": {
+        "scope": "liquid",
+        "prefix": "component-section",
+        "body": [
+            "<section class=\"section\">",
+            "\t<div class=\"section__inner ${1|container,container-fluid|}\">",
+            "\t\t<header class=\"section__header\">",
+            "\t\t\t<h2 class=\"section__title\">${2}</h2>",
+            "\t\t</header>",
+            "\t\t<div class=\"section__body\">",
+            "\t\t\t${3}",
+            "\t\t</div>",
+            "\t\t<footer class=\"section__footer\">",
+            "\t\t\t${4}",
+            "\t\t</footer>",
+            "\t</div>",
+            "</section>"
+        ],
+        "description": "HTML markup for a section."
     },
     "wrap-if": {
 		"scope": "liquid",
 		"prefix": "wrap-if",
 		"body": [
 			"{% if ${1:variable} != blank %}",
-			"  ${TM_SELECTED_TEXT}",
+			"\t${TM_SELECTED_TEXT}",
 			"{% endif %}"
 		],
-		"description": "Wraps content in an if statement"
+		"description": "Wraps content in an if statement."
 	},
     "tag-liquid": {
 		"scope": "liquid",
 		"prefix": "tag-liquid",
 		"body": [
 			"{% liquid",
-			"  assign ${1:variable} = ${2:value}",
+			"\tassign ${1:variable} = ${2:value}",
 			"%}"
 		],
 		"description": "A liquid tag with a boilerplate variable."
