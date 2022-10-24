@@ -1,4 +1,10 @@
-All subject to change, as I change my mind frequently.
+These are *opinonated* snippets I find useful in the construction of Shopify projects.
+
+They may or may not be useful to you. My intention behind the extension is to use it as
+a learning excercise, and also to make them project-agnostic.
+
+All subject to change - and I change my mind frequently.
+
 Ideally, the snippet files should follow this format also - large affects to smaller.
 (Scaffold, Component, Wrap, Tag).
 
