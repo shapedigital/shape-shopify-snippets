@@ -22,7 +22,7 @@
             "<section class=\"section\">",
             "  <div class=\"section__inner container\">",
             "    <div class=\"section__body\">",
-            "      ${5}",
+            "      ${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}",
             "    </div>",
             "  </div>",
             "</section>",

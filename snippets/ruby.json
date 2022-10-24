@@ -1,17 +1,17 @@
 {
-	"template-ruby": {
+	"scaffold-ruby": {
 		"scope": "ruby",
-		"prefix": "template-ruby",
+		"prefix": "scaffold-ruby",
 		"body": [
 			"=begin",
 			"-------------------------------------------------------------------------------",
-			"${1:$TM_FILENAME_BASE}",
+			"${1:${TM_FILENAME_BASE/(^\\w*)|(-)/${1:/pascalcase}${2:+ }/g}}",
 			"-------------------------------------------------------------------------------",
 			"Description",
 			"${2:Describe the shopify script}",
 			"-------------------------------------------------------------------------------",
 			"Variables",
-			"- ${3:variable_name}: {${4:String}} - ${5:Description}.",
+			"- ${3:variable_name}: ${4|Object,String,Number,Boolean,Nil,Array,EmptyDrop|} - ${5:Description}.",
 			"-------------------------------------------------------------------------------",
 			"Reference",
 			"https://help.shopify.com/en/manual/checkout-settings/script-editor/",

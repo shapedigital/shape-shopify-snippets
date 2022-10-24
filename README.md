@@ -8,7 +8,12 @@ All subject to change - and I change my mind frequently.
 Ideally, the snippet files should follow this format also - large affects to smaller.
 (Scaffold, Component, Wrap, Tag).
 
+Points to note -
+- What's the best way to handle tabs / spaces.
+
 ## Snippet terminology
+
+All snippets are lowercase.
 
 | Command | Example | Description
 | :------------- | :------------- | :------------- |
