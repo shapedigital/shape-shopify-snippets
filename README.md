@@ -13,7 +13,8 @@ Points to note -
 
 ## Snippet terminology
 
-All snippets are lowercase.
+All snippets are lowercase, hyphenated between words.
+They are prefixed by their function.
 
 | Command | Example | Description
 | :------------- | :------------- | :------------- |
