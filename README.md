@@ -25,5 +25,5 @@ All snippets are lowercase.
 ## Updating the extension
 
 | Command | Description
-| :------------- | :------------- | :------------- |
+| :------------- | :------------- |
 | `vsce publish minor` | Publishes a minor update version.
