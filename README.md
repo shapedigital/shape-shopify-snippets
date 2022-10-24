@@ -21,3 +21,9 @@ All snippets are lowercase.
 | `component-` | `component-section` | Adds the HTML structure for a component, such as as 'section' or a 'table'.
 | `wrap-` | `wrap-if` | Surrounds the highlighted code. For example an 'if' statement.
 | `tag-` | `tag-liquid` | (Liquid only) Boilerplated tags. For example, `{% liquid %}`.
+
+## Updating the extension
+
+| Command | Description
+| :------------- | :------------- | :------------- |
+| `vsce publish minor` | Publishes a minor update version.
