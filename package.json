@@ -38,6 +38,10 @@
         {
             "language": "ruby",
             "path": "./snippets/ruby.json"
+        },
+        {
+            "language": "javascript",
+            "path": "./snippets/javascript.json"
         }
         ]
     }
