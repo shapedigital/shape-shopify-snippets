@@ -1,6 +1,6 @@
 All subject to change, as I change my mind frequently.
-Ideally, the snippet files should follow this format also.
-(Scaffold, Component, Wrap).
+Ideally, the snippet files should follow this format also - large affects to smaller.
+(Scaffold, Component, Wrap, Tag).
 
 ## Snippet terminology
 
