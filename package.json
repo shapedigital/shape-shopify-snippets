@@ -24,6 +24,10 @@
             "path": "./snippets/css.json"
         },
         {
+            "language": "postcss",
+            "path": "./snippets/css.json"
+        },
+        {
             "language": "html",
             "path": "./snippets/html.json"
         },
