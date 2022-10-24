@@ -9,3 +9,4 @@ Ideally, the snippet files should follow this format also.
 | `scaffold-` | `scaffold-section` | Scaffolds a 'section' or 'snippet'.
 | `component-` | `component-section` | Adds the HTML structure for a component, such as as 'section' or a 'table'.
 | `wrap-` | `wrap-if` | Surrounds the highlighted code. For example an 'if' statement.
+| `tag-` | `tag-liquid` | (Liquid only) Boilerplated tags. For example, `{% liquid %}`.
