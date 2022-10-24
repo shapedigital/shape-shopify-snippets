@@ -1,7 +1,7 @@
 {
-	"template-css": {
+	"scaffold-css": {
 		"scope": "css,pcss,postcss",
-		"prefix": "template-css",
+		"prefix": "scaffold-css",
 		"body": [
 			"/*",
 			"-------------------------------------------------------------------------------",
@@ -20,9 +20,9 @@
 		],
 		"description": "Boilerplate markup for a css comment. Replaces first underscore."
 	},
-	"template-mixin": {
+	"scaffold-mixin": {
 		"scope": "css,pcss,postcss",
-		"prefix": "template-mixin",
+		"prefix": "scaffold-mixin",
 		"body": [
 			"/*",
 			"-------------------------------------------------------------------------------",
