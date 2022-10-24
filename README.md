@@ -5,8 +5,8 @@ a learning excercise, and also to make them project-agnostic.
 
 All subject to change - and I change my mind frequently.
 
-Ideally, the snippet files should follow this format also - large affects to smaller.
-(Scaffold, Component, Wrap, Tag).
+Ideally, the snippet files should follow this format also - Snippets that have large affects, down to smaller.
+(Scaffold -> Component -> Wrap -> Tag).
 
 ## Snippet terminology
 
