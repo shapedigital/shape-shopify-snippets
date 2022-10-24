@@ -2,7 +2,7 @@
     "name": "shape-shopify-snippets",
     "displayName": "Shopify theme snippets",
     "description": "Opinionated snippets for building bespoke Shopify themes.",
-    "icon": "images/icon.jpg",
+    "icon": "images/icon.png",
     "version": "0.3.0",
     "publisher": "Shape",
     "bugs": "https://github.com/shapedigital/shape-shopify-snippets/issues",
