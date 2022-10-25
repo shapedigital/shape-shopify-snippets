@@ -17,6 +17,9 @@
     "categories": [
         "Snippets"
     ],
+    "scripts": {
+        "publish:minor": "vsce publish minor"
+    },
     "contributes": {
         "snippets": [
             {
