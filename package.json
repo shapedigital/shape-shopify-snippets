@@ -21,27 +21,43 @@
         "snippets": [
             {
                 "language": "css",
-                "path": "./snippets/css.json"
+                "path": "./snippets/css/css.json"
             },
             {
                 "language": "postcss",
-                "path": "./snippets/css.json"
+                "path": "./snippets/css/css.json"
             },
             {
                 "language": "html",
-                "path": "./snippets/html.json"
+                "path": "./snippets/html/html.json"
             },
             {
                 "language": "liquid",
-                "path": "./snippets/liquid.json"
+                "path": "./snippets/liquid/liquid-scaffolds.json"
+            },
+            {
+                "language": "liquid",
+                "path": "./snippets/liquid/liquid-components.json"
+            },
+            {
+                "language": "liquid",
+                "path": "./snippets/liquid/liquid-wraps.json"
+            },
+            {
+                "language": "liquid",
+                "path": "./snippets/liquid/liquid-tags.json"
             },
             {
                 "language": "ruby",
-                "path": "./snippets/ruby.json"
+                "path": "./snippets/ruby/ruby.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/javascript.json"
+                "path": "./snippets/javascript/javascript.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue/vue-scaffolds.json"
             }
         ]
     }

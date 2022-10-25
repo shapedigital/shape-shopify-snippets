@@ -1,0 +1,49 @@
+{
+    "component-section": {
+        "scope": "liquid",
+        "prefix": ["component-section", "c-section"],
+        "body": [
+            "<section class=\"section\">",
+            "\t<div class=\"section__inner ${1|container,container-fluid|}\">",
+            "\t\t<header class=\"section__header\">",
+            "\t\t\t<h2 class=\"section__title\">${2}</h2>",
+            "\t\t</header>",
+            "\t\t<div class=\"section__body\">",
+            "\t\t\t${3}",
+            "\t\t</div>",
+            "\t\t<footer class=\"section__footer\">",
+            "\t\t\t${4}",
+            "\t\t</footer>",
+            "\t</div>",
+            "</section>"
+        ],
+        "description": "HTML markup for a section."
+    },
+    "component-table": {
+        "scope": "liquid",
+        "prefix": ["component-table", "c-table"],
+        "body": [
+            "<table>",
+            "\t<thead>",
+            "\t\t<tr>",
+            "\t\t\t<th>${1}</th>",
+            "\t\t\t<th>${2}</th>",
+            "\t\t</tr>",
+            "\t</thead>",
+            "\t<tbody>",
+            "\t\t<tr>",
+            "\t\t\t<td>${3}</td>",
+            "\t\t\t<td>${4}</td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "\t<tfoot>",
+            "\t\t<tr>",
+            "\t\t\t<td>${5}</td>",
+            "\t\t\t<td>${6}</td>",
+            "\t\t</tr>",
+            "\t</tfoot>",
+            "</table>"
+        ],
+        "description": "HTML markup for a table."
+    }
+}

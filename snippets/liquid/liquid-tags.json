@@ -1,0 +1,12 @@
+{
+    "tag-liquid": {
+		"scope": "liquid",
+		"prefix": ["tag-liquid", "t-liquid"],
+		"body": [
+			"{% liquid",
+			"\tassign ${1:variable} = ${2:value}",
+			"%}"
+		],
+		"description": "A liquid tag with a boilerplate variable."
+	}
+}

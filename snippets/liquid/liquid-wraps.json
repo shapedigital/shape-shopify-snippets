@@ -1,0 +1,12 @@
+{
+    "wrap-if": {
+		"scope": "liquid",
+		"prefix": ["wrap-if", "w-if"],
+		"body": [
+			"{% if ${1:variable} != blank %}",
+			"\t${TM_SELECTED_TEXT}",
+			"{% endif %}"
+		],
+		"description": "Wraps content in an if statement."
+	}
+}

@@ -1,7 +1,7 @@
 {
     "wrap-preconnect": {
         "scope": "liquid,html",
-        "prefix": "wrap-preconnect",
+        "prefix": ["wrap-preconnect", "w-preconnect"],
         "body": [
             "<link rel=\"preconnect\" href=\"${TM_SELECTED_TEXT}\" crossorigin=\"true\" />"
         ],

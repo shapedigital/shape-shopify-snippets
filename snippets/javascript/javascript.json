@@ -1,6 +1,6 @@
 {
     "scaffold-js": {
-      "prefix": "scaffold-js",
+      "prefix": ["scaffold-js", "s-js"],
       "scope": "javascript,html",
       "body": [
         "/*",

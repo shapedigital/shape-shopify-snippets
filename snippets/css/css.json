@@ -1,7 +1,7 @@
 {
 	"scaffold-css": {
 		"scope": "css,pcss,postcss",
-		"prefix": "scaffold-css",
+		"prefix": ["scaffold-css", "s-css"],
 		"body": [
 			"/*",
 			"-------------------------------------------------------------------------------",
@@ -19,7 +19,7 @@
 	},
 	"scaffold-mixin": {
 		"scope": "css,pcss,postcss",
-		"prefix": "scaffold-css-mixin",
+		"prefix": ["scaffold-css-mixin", "c-css-mixin"],
 		"body": [
 			"/*",
 			"-------------------------------------------------------------------------------",

@@ -1,7 +1,7 @@
 {
     "scaffold-section": {
         "scope": "liquid",
-        "prefix": "scaffold-section",
+        "prefix": ["scaffold-section", "s-section"],
         "body": [
             "{% comment %}",
             "-------------------------------------------------------------------------------",
@@ -42,7 +42,7 @@
     },
     "scaffold-snippet": {
         "scope": "liquid",
-        "prefix": "scaffold-snippet",
+        "prefix": ["scaffold-snippet", "s-snippet"],
         "body": [
             "{% comment %}",
             "-------------------------------------------------------------------------------",
@@ -62,45 +62,5 @@
             "${7}"
         ],
         "description": "Boilerplate markup for a snippet."
-    },
-    "component-section": {
-        "scope": "liquid",
-        "prefix": "component-section",
-        "body": [
-            "<section class=\"section\">",
-            "\t<div class=\"section__inner ${1|container,container-fluid|}\">",
-            "\t\t<header class=\"section__header\">",
-            "\t\t\t<h2 class=\"section__title\">${2}</h2>",
-            "\t\t</header>",
-            "\t\t<div class=\"section__body\">",
-            "\t\t\t${3}",
-            "\t\t</div>",
-            "\t\t<footer class=\"section__footer\">",
-            "\t\t\t${4}",
-            "\t\t</footer>",
-            "\t</div>",
-            "</section>"
-        ],
-        "description": "HTML markup for a section."
-    },
-    "wrap-if": {
-		"scope": "liquid",
-		"prefix": "wrap-if",
-		"body": [
-			"{% if ${1:variable} != blank %}",
-			"\t${TM_SELECTED_TEXT}",
-			"{% endif %}"
-		],
-		"description": "Wraps content in an if statement."
-	},
-    "tag-liquid": {
-		"scope": "liquid",
-		"prefix": "tag-liquid",
-		"body": [
-			"{% liquid",
-			"\tassign ${1:variable} = ${2:value}",
-			"%}"
-		],
-		"description": "A liquid tag with a boilerplate variable."
-	}
+    }
 }

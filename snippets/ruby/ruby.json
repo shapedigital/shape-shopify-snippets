@@ -1,7 +1,7 @@
 {
 	"scaffold-ruby": {
 		"scope": "ruby",
-		"prefix": "scaffold-ruby",
+		"prefix": ["scaffold-ruby", "s-ruby"],
 		"body": [
 			"=begin",
 			"-------------------------------------------------------------------------------",
