@@ -1,0 +1,12 @@
+{
+    "wrap-breakpoint": {
+        "scope": "css,pcss,postcss",
+        "prefix": ["wrap-breakpoint", "w-breakpoint"],
+        "body": [
+            "@media (--${1|xxs,sm,md,lg,xlg,xxlg|}) {",
+            "\t${TM_SELECTED_TEXT}",
+            "}"
+        ],
+        "description": "Wraps content in a breakpoint"
+    }
+}

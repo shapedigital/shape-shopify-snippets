@@ -24,11 +24,19 @@
         "snippets": [
             {
                 "language": "css",
-                "path": "./snippets/css/css.json"
+                "path": "./snippets/css/css-scaffolds.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css/css-wraps.json"
             },
             {
                 "language": "postcss",
-                "path": "./snippets/css/css.json"
+                "path": "./snippets/css/css-scaffolds.json"
+            },
+            {
+                "language": "postcss",
+                "path": "./snippets/css/css-wraps.json"
             },
             {
                 "language": "html",
