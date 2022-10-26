@@ -16,7 +16,7 @@
 | Prefix | Description
 | :------------- | :------------- |
 | `component-section` | Creates section HTML.
-| `component-table` | Creates section HTML.
+| `component-table` | Creates table HTML.
 
 ## Wraps
 #### Surrounds highlighted text with code.
