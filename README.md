@@ -1,3 +1,10 @@
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Shape.shape-shopify-snippets?color=66FC6F&style=flat-square)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/Shape.shape-shopify-snippets?color=66FC6F&style=flat-square)
+
+## Screenshots
+
+
+
 ## Scaffolds
 #### Used to 'boilerplate' files.
 
