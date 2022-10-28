@@ -23,7 +23,7 @@
 | Prefix | Description
 | :------------- | :------------- |
 | `component-section` | Creates section HTML.
-| `component-table` | Creates section HTML.
+| `component-table` | Creates table HTML.
 
 ## Wraps
 #### Surrounds highlighted text with code.
@@ -32,3 +32,10 @@
 | :------------- | :------------- |
 | `wrap-if` | Wraps selection in an if-statement.
 | `wrap-breakpoint` | Wraps selection in a CSS breakpoint.
+
+## Tags
+#### Liquid tags.
+
+| Prefix | Description
+| :------------- | :------------- |
+| `tag-liquid` | Creates a 'liquid' tag with a default assignment.
