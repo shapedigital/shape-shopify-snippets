@@ -3,7 +3,7 @@
     "displayName": "Shopify - Theme Snippets",
     "description": "Opinionated snippets for building bespoke Shopify themes.",
     "icon": "media/icon.png",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "publisher": "Shape",
     "bugs": "https://github.com/shapedigital/shape-shopify-snippets/issues",
     "license": "MIT",
